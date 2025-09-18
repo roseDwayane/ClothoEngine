@@ -58,7 +58,7 @@ body {
 
 /* 导航栏 */
 .navbar {
-    position: fixed;
+    position: sticky;
     top: 0;
     width: 100%;
     background: rgba(15, 6, 25, 0.95);
