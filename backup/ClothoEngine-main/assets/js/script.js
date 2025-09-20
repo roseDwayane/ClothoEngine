@@ -11,7 +11,7 @@ function initParticles() {
                     }
                 },
                 color: {
-                    value: ['#1e40af', '#60a5fa', '#2563eb', '#3b82f6']
+                    value: ['#412868', '#b094c4', '#6b46c1', '#a855f7']
                 },
                 shape: {
                     type: 'circle',
@@ -43,7 +43,7 @@ function initParticles() {
                 line_linked: {
                     enable: true,
                     distance: 150,
-                    color: '#60a5fa',
+                    color: '#b094c4',
                     opacity: 0.4,
                     width: 1
                 },
@@ -716,7 +716,7 @@ class LoadingManager {
             .loader-spinner {
                 width: 60px;
                 height: 60px;
-                border: 3px solid rgba(96, 165, 250, 0.3);
+                border: 3px solid rgba(176, 148, 196, 0.3);
                 border-top: 3px solid var(--primary-light);
                 border-radius: 50%;
                 animation: spin 1s linear infinite;
@@ -875,7 +875,7 @@ globalStyles.textContent = `
     textarea:focus,
     select:focus {
         outline: none;
-        box-shadow: 0 0 0 3px rgba(96, 165, 250, 0.3);
+        box-shadow: 0 0 0 3px rgba(176, 148, 196, 0.3);
     }
 `;
 
